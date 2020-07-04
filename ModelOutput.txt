@@ -1,0 +1,4 @@
+{"InputSentence": "What you know about me?", "prediction": "Neutral"}
+{"InputSentence": "How can you help me?", "prediction": "Positive"}
+{"InputSentence": "I love you", "prediction": "Positive"}
+{"InputSentence": "I hate you", "prediction": "Negative"}
