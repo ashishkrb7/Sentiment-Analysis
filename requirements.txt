@@ -7,9 +7,7 @@ itsdangerous==1.1.0
 Jinja2==2.11.2
 joblib==0.15.1
 textblob
-json
 vaderSentiment
-logging
 MarkupSafe==1.1.1
 requests==2.24.0
 threadpoolctl==2.1.0
