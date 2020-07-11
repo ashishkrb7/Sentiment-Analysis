@@ -17,7 +17,7 @@ def predict():
     except:
         x=""
         prediction="Please try another sentence, I am in learning phase."
-        return(prediction)
+        return render_template('index.html',Prediction="Sentiment: {}".format(prediction))
     finally:
         f=open("./ModelOutput.txt","a+",encoding="utf-8")
         f.write(str(json.dumps({"InputSentence":x,"prediction":prediction}))+"\n")
